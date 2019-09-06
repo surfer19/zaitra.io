@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="74px" viewBox="0 0 245 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="zaitra" font-family="Roboto-Regular, Roboto" font-size="100" font-weight="normal">
+            <tspan x="3" y="73" fill="#2C3E50">z</tspan>
+            <tspan x="52.5605469" y="73" fill="#3581CA">ai</tspan>
+            <tspan x="131.222656" y="73" fill="#2C3E50">tra</tspan>
+        </text>
+        <text id="zaitra" font-family="Roboto-Regular, Roboto" font-size="100" font-weight="normal">
+            <tspan x="3" y="73" fill="#ECF0F1">z</tspan>
+            <tspan x="52.5605469" y="73" fill="#3581CA">ai</tspan>
+            <tspan x="131.222656" y="73" fill="#ECF0F1">tra</tspan>
+        </text>
+        <path d="M113.5,6 L2.5,6" id="Line" stroke="#3581CA" stroke-linecap="square"></path>
+        <ellipse id="Oval-Copy" fill="#3581CA" cx="81.5" cy="6" rx="5.5" ry="5"></ellipse>
+        <ellipse id="Oval-Copy-3" fill="#3581CA" cx="42.5" cy="6" rx="5.5" ry="5"></ellipse>
+        <ellipse id="Oval-Copy-5" fill="#3581CA" cx="5.5" cy="6" rx="5.5" ry="5"></ellipse>
+        <circle id="Oval" fill="#3581CA" cx="102" cy="6" r="3"></circle>
+        <circle id="Oval-Copy-2" fill="#3581CA" cx="25" cy="6" r="3"></circle>
+        <circle id="Oval-Copy-4" fill="#3581CA" cx="63" cy="6" r="3"></circle>
+    </g>
+</svg>
