@@ -27,6 +27,14 @@ section {
     }
 }
 
+/* portfolio */
+.portfolio-item {
+    transition: all .2s ease-in-out;
+}
+.portfolio-item:hover { 
+    transform: scale(1.02); 
+}
+
 #particles-js {
     background: #1D1D1D;
 }
