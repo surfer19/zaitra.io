@@ -1,11 +1,29 @@
+/* global */
+section {
+    padding: 40px 0 100px;
+}
+
+.header {
+    font-size: 3em;
+    color: #0FB9B1;
+    text-transform: uppercase;
+    padding: 10px 0 30px;
+}
+
+.grey {
+    color: #1D1D1D;
+}
+
+/* header  */
+
 .logo {
-    width: 20em;
+    width: 7em;
     margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
     .logo {
-        width: 15em;
+        width: 5em;
     }
 }
 
@@ -13,11 +31,64 @@
     background: #1D1D1D;
 }
 
+/* services */
+
 .services {
     background: #1D1D1D;
 }
 
-.header {
+.service-item > p {
+    color: #919191;    
+}
+
+.service-item > p > a {
     color: #0FB9B1;
-    text-transform: uppercase;
+}
+
+.service-item > h4 {
+    padding-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.description {
+    font-size: 1.4em;
+    padding-bottom: 2em;
+}
+
+.fa-circle {
+    color: #0FB9B1;
+}
+
+.fa-stack :nth-child(2) {
+    color: white;
+}
+
+/* Map */
+
+.map {
+    padding: 0;
+}
+
+/* About */
+
+.lead {
+    color: #919191;
+}
+
+.lead > a {
+    color: #0FB9B1;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px 0;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social-i {
+    color: #0FB9B1;
 }
