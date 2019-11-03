@@ -1,0 +1,23 @@
+.logo {
+    width: 20em;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 15em;
+    }
+}
+
+#particles-js {
+    background: #1D1D1D;
+}
+
+.services {
+    background: #1D1D1D;
+}
+
+.header {
+    color: #0FB9B1;
+    text-transform: uppercase;
+}
