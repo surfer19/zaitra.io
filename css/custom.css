@@ -78,13 +78,29 @@ section {
 }
 
 /* About */
-
-.lead {
-    color: #919191;
+.about {
+    background: #0FB9B1;
+    color: white;
 }
 
-.lead > a {
-    color: #0FB9B1;
+.hackathon {
+    font-size: 1.4em;
+    padding-top: 12px;
+}
+
+.hackathon > a {
+    color: #1D1D1D;
+}
+
+@media (max-width: 768px) {
+    .hackathon {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .fa-trophy {
+        text-align: right;
+    }
 }
 
 /* Footer */
