@@ -10,6 +10,10 @@ section {
     padding: 10px 0 30px;
 }
 
+.white {
+    color: white;
+}
+
 .grey {
     color: #1D1D1D;
 }
@@ -37,6 +41,17 @@ section {
 
 #particles-js {
     background: #1D1D1D;
+}
+
+/* partners */
+
+.partners {
+    background: #0FB9B1;
+}
+
+.partner-box {
+    background: white;
+    padding: 35px;
 }
 
 /* services */
