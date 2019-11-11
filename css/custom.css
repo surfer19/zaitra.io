@@ -39,6 +39,12 @@ section {
     background: #1D1D1D;
 }
 
+.portfolio p {
+    color: #919191;
+    font-size: 1.4em;
+    margin-bottom: 2.5em;
+}
+
 /* services */
 
 .services {
