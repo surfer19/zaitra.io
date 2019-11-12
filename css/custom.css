@@ -27,6 +27,13 @@ section {
     }
 }
 
+/* Who we are */
+
+.we-are p {
+    color: #919191;
+    font-size: 1.4em;
+}
+
 /* portfolio */
 .portfolio-item {
     transition: all .2s ease-in-out;
