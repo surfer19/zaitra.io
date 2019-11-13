@@ -10,6 +10,10 @@ section {
     padding: 10px 0 30px;
 }
 
+.white {
+    color: white;
+}
+
 .grey {
     color: #1D1D1D;
 }
@@ -31,6 +35,13 @@ section {
     }
 }
 
+/* Who we are */
+
+.we-are p {
+    color: #919191;
+    font-size: 1.4em;
+}
+
 /* portfolio */
 .portfolio-item {
     transition: all .2s ease-in-out;
@@ -41,6 +52,24 @@ section {
 
 #particles-js {
     background: #1D1D1D;
+}
+
+/* partners */
+
+.partners {
+    background: #0FB9B1;
+}
+
+.partner-box {
+    background: white;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+.portfolio p {
+    color: #919191;
+    font-size: 1.4em;
+    margin-bottom: 2.5em;
 }
 
 /* services */
