@@ -18,6 +18,10 @@ section {
     color: #1D1D1D;
 }
 
+.green {
+    color: #0FB9B1;
+}
+
 /* header  */
 
 .logo {
@@ -98,6 +102,42 @@ section {
 
 .fa-stack :nth-child(2) {
     color: white;
+}
+
+/* Team */
+.team {
+    background: #1D1D1D;
+}
+
+.name {
+    color: white;
+    font-size: 1.3em;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.team p {
+    color: #919191;
+}
+
+.img-name {
+    max-width: 90px;
+}
+
+.team i {
+    margin-top: 10px;
+    color: #919191;
+}
+
+.team .position {
+    font-size: 0.9em;
+    color: white;
+    margin-top: -5px;
+    font-style: italic;
+}
+
+.row-team .col-md-4 {
+    margin-top: 20px;
 }
 
 /* Map */
