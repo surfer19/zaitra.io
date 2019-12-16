@@ -212,6 +212,10 @@ a span {
     color: #919191;
 }
 
+.team i:hover {
+	color: #0FB9B1;
+}
+
 .team .position {
     font-size: 0.9em;
     color: white;
