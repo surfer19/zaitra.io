@@ -22,6 +22,17 @@ section {
     color: #0FB9B1;
 }
 
+.yellow {
+	color: #ffbd15;
+}
+
+.same-height {
+	align-items: center;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+}
+
 /* header  */
 
 .logo {
@@ -244,14 +255,19 @@ a span {
     padding-top: 12px;
 }
 
-.hackathon > a {
-    color: #1D1D1D;
+@media (min-width: 992px) {
+	.trophy-row > div:first-child {
+		text-align: right;
+	}
 }
 
 @media (max-width: 768px) {
     .hackathon {
         margin-top: 20px;
-    }
+	}
+	.trophy-row > div:nth-child(3) {
+		margin-top: 1.2rem;
+	}
 }
 @media (min-width: 768px) {
     .fa-trophy {
