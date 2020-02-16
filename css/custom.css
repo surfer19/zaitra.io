@@ -33,6 +33,10 @@ section {
 	flex-wrap: wrap;
 }
 
+.mt-3 {
+	margin-top: 4rem;
+}
+
 /* header  */
 
 .logo {
@@ -215,12 +219,19 @@ a span {
 }
 
 .img-name {
-    max-width: 90px;
+    max-width: 12rem;
+    border: 2px solid #0fb9b0;
+    transition: all .2s ease-in-out;
+}
+
+.img-name:hover { 
+    transform: scale(1.1); 
 }
 
 .team i {
     margin-top: 10px;
     color: #919191;
+    transition: all .5s ease-in-out;
 }
 
 .team i:hover {
@@ -234,8 +245,10 @@ a span {
     font-style: italic;
 }
 
-.row-team .col-md-4 {
-    margin-top: 20px;
+@media (max-width: 992px) {
+	.row-team > div {
+        margin-top: 3rem;
+    }    
 }
 
 /* Map */
