@@ -1,6 +1,7 @@
 1. Installation - `gem install bundler jekyll`
 2. Go to directory
-3. Run on localhost `bundle exec jekyll serve`
+3. Run `bundle install`
+4. Run on localhost `bundle exec jekyll serve`
 
 # Stylish Portolio template for Jekyll
 
