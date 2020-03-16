@@ -15,12 +15,13 @@ facebook_username: zaitra.io
 twitter_username: zaitra.io
 github_username: zaitra.io
 address:  
-  - line: Technická 23
-  - line: Brno, Czech Republic
-  - line: "IČ: 08908508"
+  - line: Technická 2935/23
+  - line: 612 00, Brno
+  - line: Czech Republic
   # Feel free to add more lines here 
 telephone: +421 944 244 120
 copyright: Zaitra s.r.o.
+id_number: "IČ: 08908508"
 
 # Build settings
 markdown: kramdown
