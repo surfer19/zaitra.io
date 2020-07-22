@@ -37,14 +37,23 @@
 	color: #ffffff;
 }
 
-.section-grey .img-circle {
-    
+.section-grey .img-circle {    
     border: 2px solid #0fb9b0;
 }
+.section-grey .icon:hover {
+	color: #0FB9B1;
+}
 
+.section-grey .subtitle {
+	color: #ffffff;
+}
 /*
  * WHITE
  */
+
+.section-white {
+	background: #ffffff;
+}
 
 .section-white .description {
 	color: #919191;
@@ -54,17 +63,90 @@
 	color: #1D1D1D;
 }
 
-.section-grey .icon:hover {
+.section-white h4 {
+	color: #919191;
+}
+
+.section-white .subtitle {
+	color: #919191;
+}
+
+.section-white p {
+	color: #919191;
+}
+
+.section-white .icon {
+	color: #919191
+}
+
+.section-white .link {
+    color: #0FB9B1;
+}
+
+.section-white .circle-icon {
+    color: #0FB9B1;
+}
+
+.section-white .img-circle {    
+    border: 2px solid #0fb9b0;
+}
+
+.section-white .icon:hover {
 	color: #0FB9B1;
 }
 
-.section-grey .subtitle {
+.section-white .item-box {
+    background: #0FB9B1;
+}
+
+/*
+ * CYAN
+ */
+
+.section-cyan {
+	background: #0FB9B1;
+}
+
+.section-cyan .header {
+	color: #ffffff;
+}
+
+.section-cyan h4 {
+    color: #ffffff;
+}
+
+.section-cyan .img-circle {    
+    border: 2px solid #ffffff;
+}
+
+.section-cyan .circle-icon {
+    color: #1D1D1D;
+}
+
+.section-cyan .item-box {
+    background: #ffffff;
+}
+
+.section-cyan p {
+	color: white;
+}
+
+.section-cyan i {
 	color: #ffffff;
 }
 
 /* global */
 section {
     padding: 40px 0 100px;
+}
+
+.section-same-padding {
+	padding: 40px 0 40px;
+}
+
+.item-box {
+	padding: 35px;
+    margin-top: 20px;
 }
 
 .header {
@@ -87,7 +169,7 @@ section h4 {
 
 .description {
     font-size: 1.4em;
-    padding-bottom: 2em;
+    /* padding-bottom: 2em; */
 }
 
 .subtitle {
@@ -112,7 +194,7 @@ img {
 	color: #919191!important;
 }
 
-.green {
+.cyan {
     color: #0FB9B1!important;
 }
 
@@ -129,6 +211,18 @@ img {
 
 .mt-3 {
 	margin-top: 4rem;
+}
+
+.mt-2 {
+	margin-top: 2rem;
+}
+
+.mb-2 {
+	margin-bottom: 2rem;
+}
+
+.mb-3 {
+	margin-bottom: 4rem;
 }
 
 /* header  */
@@ -239,24 +333,6 @@ a span {
     background: #1D1D1D;
 } 
 
-/* partners */
-
-.partners {
-    background: #0FB9B1;
-}
-
-.partner-box {
-    background: #ffffff;
-    padding: 35px;
-    margin-top: 20px;
-}
-
-.portfolio p {
-    color: #919191;
-    font-size: 1.4em;
-    margin-bottom: 2.5em;
-}
-
 .img-circle:hover { 
     transform: scale(1.1); 
 }
@@ -276,17 +352,6 @@ a span {
 
 .map {
     padding: 0;
-}
-
-/* About */
-.about {
-    background: #0FB9B1;
-    color: #ffffff;
-}
-
-.hackathon {
-    font-size: 1.4em;
-    padding-top: 12px;
 }
 
 @media (min-width: 992px) {
