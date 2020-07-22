@@ -2,13 +2,9 @@
  * Theme styles
  */
 
-section h4 {
-	font-size: 1.3em;
-	margin-top: 30px;
-	padding-bottom: 10px;
-	font-weight: 600;
-}
-
+ /*
+ * GREY
+ */
 .section-grey {
 	background: #1D1D1D;
 }
@@ -18,7 +14,7 @@ section h4 {
 }
 
 .section-grey h4 {
-	color: #e4e4e4;
+	color: #ffffff;
 }
 
 .section-grey p {
@@ -38,13 +34,24 @@ section h4 {
 }
 
 .section-grey .subtitle {
-	color: #e4e4e4;
+	color: #ffffff;
 }
 
 .section-grey .img-circle {
-    max-width: 12rem;
+    
     border: 2px solid #0fb9b0;
-    transition: all .2s ease-in-out;
+}
+
+/*
+ * WHITE
+ */
+
+.section-white .description {
+	color: #919191;
+}
+
+.section-white .header {
+	color: #1D1D1D;
 }
 
 .section-grey .icon:hover {
@@ -52,19 +59,7 @@ section h4 {
 }
 
 .section-grey .subtitle {
-	color: #e4e4e4;
-}
-
-.description {
-    font-size: 1.4em;
-    padding-bottom: 2em;
-}
-
-
-.subtitle {
-	font-size: 0.9em;
-    margin-top: -5px;
-    font-style: italic;
+	color: #ffffff;
 }
 
 /* global */
@@ -74,25 +69,55 @@ section {
 
 .header {
     font-size: 3em;
-    /* color: #0FB9B1; */
     text-transform: uppercase;
     padding: 10px 0 30px;
 }
 
+.img-circle {
+	max-width: 12rem;
+	transition: all .2s ease-in-out;
+}
+
+section h4 {
+	font-size: 1.3em;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+
+.description {
+    font-size: 1.4em;
+    padding-bottom: 2em;
+}
+
+.subtitle {
+	font-size: 0.9em;
+    margin-top: -5px;
+    font-style: italic;
+}
+
+img { 
+	max-width: 100%;
+}
+
 .white {
-    color: #e4e4e4;
+    color: #ffffff!important;
+}
+
+.dark-grey {
+    color: #1D1D1D!important;
 }
 
 .grey {
-    color: #1D1D1D;
+	color: #919191!important;
 }
 
 .green {
-    color: #0FB9B1;
+    color: #0FB9B1!important;
 }
 
 .yellow {
-	color: #ffbd15;
+	color: #ffbd15!important;
 }
 
 .same-height {
@@ -142,7 +167,7 @@ a span {
 	opacity: 0;
 	box-sizing: border-box;
 }
-
+/* top section arrow animation */
 .header a span:nth-of-type(1) {
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
@@ -183,7 +208,7 @@ a span {
 		opacity: 0;
 	}
 }
-
+/* top section arrows */
 .header a span {
 	position: absolute;
 	top: 0;
@@ -201,25 +226,18 @@ a span {
 	box-sizing: border-box;
 }
 
-
-/* Who we are */
-
-.we-are p {
-    color: #919191;
-    font-size: 1.4em;
-}
-
 /* portfolio */
-.portfolio-item {
+/* .portfolio-item {
     transition: all .2s ease-in-out;
 }
 .portfolio-item:hover { 
     transform: scale(1.02); 
 }
+*/
 
 #particles-js {
     background: #1D1D1D;
-}
+} 
 
 /* partners */
 
@@ -228,7 +246,7 @@ a span {
 }
 
 .partner-box {
-    background: #e4e4e4;
+    background: #ffffff;
     padding: 35px;
     margin-top: 20px;
 }
@@ -238,7 +256,6 @@ a span {
     font-size: 1.4em;
     margin-bottom: 2.5em;
 }
-
 
 .img-circle:hover { 
     transform: scale(1.1); 
@@ -264,7 +281,7 @@ a span {
 /* About */
 .about {
     background: #0FB9B1;
-    color: #e4e4e4;
+    color: #ffffff;
 }
 
 .hackathon {
